@@ -4,9 +4,12 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
-
     id ("kotlin-parcelize")
-    id ("androidx.navigation.safeargs.kotlin" ) version ("2.5.3")
+    id("androidx.navigation.safeargs.kotlin")
+    id("com.google.gms.google-services")
+
+
+
 
 }
 
@@ -55,6 +58,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    //----------------------------------------------------------------------------------------------------------
+
 
     //HILT
     implementation ("com.google.dagger:hilt-android:2.33-beta")
