@@ -94,7 +94,11 @@ dependencies {
     implementation ("androidx.navigation:navigation-fragment-ktx:2.5.2")
     implementation ("androidx.navigation:navigation-ui-ktx:2.5.2")
 
-    implementation ("androidx.navigation:navigation-safe-args-gradle-plugin:2.5.3" )// Update with the latest version if needed
+    implementation ("androidx.navigation:navigation-safe-args-gradle-plugin:2.7.7" )// Update with the latest version if needed
 
-
+   implementation ("br.com.simplepass:loading-button-android:2.2.0")// Replace with the latest version if needed
 }
+
+
+
+
